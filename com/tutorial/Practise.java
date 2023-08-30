@@ -97,5 +97,24 @@ public class Practise {
         }
         System.out.println(arr);
         System.out.println("_______________________________________________________");
+         LinkedList litr=new LinkedList();
+        litr.add("hasan");
+        litr.add("ali");
+        litr.add("nawab");
+        litr.add("mohd");
+        System.out.println(litr);
+        ListIterator itr= litr.listIterator();
+        while (itr.hasNext()){
+            String s=(String) itr.next();
+            if (s.equals("nawab"))
+                itr.remove();
+            else if (s.equals("hasan")) {
+                itr.add("zaman");
+            } else if (s.equals("ali")) {
+                itr.set("world");
+            }
+        }
+        System.out.println(litr);
+        System.out.println("_______________________________________________________");
     }
 }
