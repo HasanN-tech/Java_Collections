@@ -82,5 +82,20 @@ public class Practise {
                 System.out.println(I);
         }
         System.out.println(vector);
+        System.out.println("_______________________________________________________");
+         ArrayList arr = new ArrayList();
+        for (int i=0;i<=10;i++)
+            arr.add(i);
+        System.out.println(arr);
+        Iterator itr= arr.iterator();
+        while(itr.hasNext()){
+            Integer n=(Integer)itr.next();
+            if(n%2==0)
+                System.out.println(n);
+            else
+                itr.remove();
+        }
+        System.out.println(arr);
+        System.out.println("_______________________________________________________");
     }
 }
