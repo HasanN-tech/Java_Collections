@@ -39,5 +39,37 @@ public class Practise {
 //    l3.add(40);
 //    l3.add(50);
 //    System.out.println(l3);
+       Vector v=new Vector(5,4);
+        System.out.println(v.capacity());
+        v.add(10);
+        v.add(20);
+        v.add(30);
+        v.addElement(40);
+        v.addElement(50);
+        v.addElement(60);
+        System.out.println(v.capacity());
+        System.out.println(v);
+        System.out.println("_______________________________________________________");
+        LinkedList l=new LinkedList();
+        l.add(72);
+        l.add("Hasan");
+        l.add("Nawab");
+        l.add('A');
+        l.add(12.5);
+        l.set(3,'Z');
+        l.add(0,24);
+        l.removeLast();
+        l.addFirst(5);
+        System.out.println(l);
+        System.out.println("_______________________________________________________");
+        Stack s=new Stack();
+        s.push('A');
+        s.push("hasan");
+        s.push(12);
+        s.push(20.5);
+        System.out.println(s);
+        System.out.println(s.search(12));
+        System.out.println(s.search("Hasan"));
+        System.out.println("_______________________________________________________");
     }
 }
