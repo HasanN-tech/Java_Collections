@@ -174,6 +174,14 @@ public class Practise {
 //        T1.add(new StringBuffer("K"));
 //        T1.add(new StringBuffer("L"));
 //        System.out.println(T1);
+          TreeSet T2=new TreeSet(new MyComparator() );
+        T2.add("A");
+        T2.add("AB");
+        T2.add(new StringBuffer("ABC"));
+        T2.add(new StringBuffer("AA"));
+        T2.add("XX");
+        T2.add("ABCD");
+        System.out.println(T2);
     }
 }
 class MyComparator implements Comparator
