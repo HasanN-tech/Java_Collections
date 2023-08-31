@@ -126,5 +126,15 @@ public class Practise {
         System.out.println(h.add("Z"));
         System.out.println(h);
         System.out.println("_______________________________________________________");
+         LinkedHashSet s=new LinkedHashSet();
+        s.add("A");
+        s.add("Z");
+        s.add("B");
+        s.add("Y");
+        s.add(null);
+        s.add(10);
+        System.out.println(s.add("Z"));
+        System.out.println(s);
+        System.out.println("_______________________________________________________");
     }
 }
