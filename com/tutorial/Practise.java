@@ -136,7 +136,44 @@ public class Practise {
         System.out.println(s.add("Z"));
         System.out.println(s);
         System.out.println("_______________________________________________________");
-        
+        TreeSet t=new TreeSet();
+//        t.add("A");
+//        t.add("a");
+//        t.add("B");
+//        t.add("Z");
+//        t.add("L");
+//        t.add("r");
+//        t.add(new StringBuffer("C"));
+//        t.add(new StringBuffer("D"));
+//        t.add(new StringBuffer("E"));
+//        System.out.println(t);
+//        System.out.println("A".compareTo("Z"));
+//        System.out.println("Z".compareTo("A"));
+//        System.out.println("Z".compareTo("Z"));
+//        System.out.println(new StringBuffer("C"));
+//        System.out.println(new StringBuffer("A"));
+////        System.out.println(new StringBuffer("B"));
+//        TreeSet tr=new TreeSet(new MyComparator());
+//        tr.add(10);
+//        tr.add(0);
+//        tr.add(15);
+//        tr.add(20);
+//        tr.add(20);
+//      //  System.out.println(tr);
+
+//        TreeSet ts=new TreeSet(new MyComparator());
+//        ts.add("hasan");
+//        ts.add("ali");
+//        ts.add("nawab");
+//        ts.add("mohd");
+//        System.out.println(ts);
+
+//        TreeSet T1=new TreeSet(new MyComparator());
+//        T1.add(new StringBuffer("A"));
+//        T1.add(new StringBuffer("Z"));
+//        T1.add(new StringBuffer("K"));
+//        T1.add(new StringBuffer("L"));
+//        System.out.println(T1);
     }
 }
 class MyComparator implements Comparator
