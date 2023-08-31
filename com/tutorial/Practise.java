@@ -116,5 +116,15 @@ public class Practise {
         }
         System.out.println(litr);
         System.out.println("_______________________________________________________");
+         HashSet h=new HashSet();
+        h.add("A");
+        h.add("Z");
+        h.add("B");
+        h.add("Y");
+        h.add(null);
+        h.add(10);
+        System.out.println(h.add("Z"));
+        System.out.println(h);
+        System.out.println("_______________________________________________________");
     }
 }
